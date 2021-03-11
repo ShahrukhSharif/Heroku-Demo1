@@ -8,7 +8,7 @@ app = Flask(__name__)
 # Load The Model
 
 # Load The File
-data = pd.read_csv("C:/Users/Inspiron/Desktop/APP/Kaggke_LGBM_3r_March.csv")
+data = pd.read_csv("Kaggke_LGBM_3r_March.csv")
 
 @app.route('/')
 def home():
